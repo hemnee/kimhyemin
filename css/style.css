@@ -129,7 +129,6 @@ video {
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-    height: 800px;
     max-width: 100%;
   }
 
@@ -138,10 +137,7 @@ video {
   }
 
   #fh5co-header img {
-    display: none;
-    position: absolute;
-    max-width: 800px;
-    height: 800px;
+    display: block;
   }
 }
 
