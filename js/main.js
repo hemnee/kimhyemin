@@ -108,7 +108,7 @@
 			scaleColor: false,
 			lineWidth: 4,
 			lineCap: 'butt',
-			barColor: '#bbdbbb',
+			barColor: '#f5dabd',
 			trackColor: "#f5f5f5",
 			size: 160,
 			animate: 1000

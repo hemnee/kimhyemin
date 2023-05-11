@@ -92,7 +92,7 @@ figure {
 }
 
 #tt {
-  font-family: 'EF_jejudoldam';
+  font-family: 'KCC-GANPAN';
   background-color: #fffef2;
   padding: 5px 0;
   border-radius: 50px;
@@ -297,11 +297,6 @@ video {
   clear: both;
 }
 
-#fh5co-about,
-#fh5co-resume,
-#fh5co-skills {
-  background: url(../images/bg1.jpg)no-repeat center top;
-}
 
 @media screen and (max-width: 768px) {
 
@@ -323,9 +318,6 @@ video {
   border-bottom: none;
 }
 
-.fh5co-bg-dark {
-  background: url(../images/bg1.jpg);
-}
 
 
 .info {
@@ -505,7 +497,7 @@ video {
   letter-spacing: 5px;
   font-weight: bold;
   color: #fffef2;
-  background: #bbdbbb;
+  background: #5d4444;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -1065,6 +1057,11 @@ video {
   #fh5co-consult .video {
     display: none;
   }
+
+  .key {
+    font-size: 16px;
+    font-weight: bold;
+  }
 }
 
 #fh5co-consult .choose {
@@ -1177,6 +1174,7 @@ input[type="text"] {
   #map {
     height: 200px;
   }
+
 }
 
 .gototop {
@@ -1516,7 +1514,7 @@ input[type="text"] {
 }
 
 body {
-  background: url(../images/bg1.jpg)center top;
+  background: #f2cda5;
 }
 
 .w {
@@ -1533,4 +1531,9 @@ body {
 
 .ep {
   padding-top: 6%;
+}
+
+.key {
+  font-size: 18px;
+  font-weight: bold;
 }
