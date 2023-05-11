@@ -97,16 +97,6 @@ video {
 
 @media (max-width:780px) {
 
-  #fh5co-header,
-  .fh5co-cover {
-    background: url(../images/m_banner.jpg) no-repeat center center;
-    background-color: transparent;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    max-width: 100%;
-  }
-
   video {
     display: none;
   }
@@ -116,9 +106,7 @@ video {
   }
 }
 
-video {
-  max-width: 100%;
-}
+
 
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -985,93 +973,7 @@ video {
   color: black;
 }
 
-#fh5co-consult {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  width: 100%;
-  float: left;
-}
 
-#fh5co-consult .video,
-#fh5co-consult .choose {
-  display: inline-block;
-}
-
-@media screen and (max-width: 768px) {
-
-  #fh5co-consult .video,
-  #fh5co-consult .choose {
-    width: 100% !important;
-  }
-}
-
-#fh5co-consult .video {
-  display: table;
-  width: 50%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: relative;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-}
-
-@media screen and (max-width: 768px) {
-  #fh5co-consult .video {
-    display: none;
-  }
-
-  .key {
-    font-size: 16px;
-    font-weight: bold;
-  }
-}
-
-#fh5co-consult .choose {
-  width: 50%;
-  padding: 4em;
-}
-
-@media screen and (max-width: 768px) {
-  #fh5co-consult .choose {
-    width: 100%;
-    padding: 4em 1em;
-  }
-}
-
-.fh5co-video {
-  overflow: hidden;
-}
-
-@media screen and (max-width: 992px) {
-  .fh5co-video {
-    height: 450px;
-  }
-}
-
-.fh5co-video .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.1);
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
 
 #fh5co-footer {
   padding: 50px 0;

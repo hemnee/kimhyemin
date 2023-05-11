@@ -106,7 +106,7 @@
 	var pieChart = function () {
 		$('.chart').easyPieChart({
 			scaleColor: false,
-			lineWidth: 4,
+			lineWidth: 8,
 			lineCap: 'butt',
 			barColor: '#f5dabd',
 			trackColor: "#f5f5f5",
