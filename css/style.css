@@ -23,34 +23,9 @@ body {
   background: #fff;
 }
 
-#page {
-  position: relative;
-  overflow-x: hidden;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
 
-.offcanvas #page {
-  overflow: hidden;
-  position: absolute;
-}
 
-.offcanvas #page:after {
-  -webkit-transition: 2s;
-  -o-transition: 2s;
-  transition: 2s;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 101;
-  background: rgba(0, 0, 0, 0.7);
-  content: "";
-}
+
 
 a {
   color: #916e42;
@@ -100,10 +75,9 @@ figure {
 
 #fh5co-header,
 .fh5co-cover {
-  background: url(../images/banner.mp4);
-  background-color: transparent;
-  background-size: cover;
-  background-attachment: fixed;
+
+
+
   position: relative;
   height: 100%;
   width: 100%;
@@ -118,6 +92,7 @@ figure {
 
 video {
   vertical-align: middle;
+  width: 100%;
 }
 
 @media (max-width:780px) {
