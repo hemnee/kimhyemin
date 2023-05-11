@@ -82,9 +82,7 @@ figure {
 #fh5co-header img {
   display: none;
   max-width: 100%;
-  position: relative;
-  height: 100%;
-  max-width: 100%;
+
 }
 
 video {
@@ -101,6 +99,7 @@ video {
 
   #fh5co-header img {
     display: block;
+    max-width: 100%;
   }
 }
 
