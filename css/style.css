@@ -92,7 +92,7 @@ video {
 
 @media (max-width:780px) {
 
-  video {
+  .v_b {
     display: none;
 
   }
